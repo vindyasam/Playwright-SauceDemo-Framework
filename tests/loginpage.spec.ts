@@ -12,7 +12,7 @@ test('verify valid login', async ({ page }) => {
     const actualTitle = await loginPage.doLogin('standard_user', 'secret_sauce');
 
     await page.waitForURL('**/inventory.html');
-    await expect(page.locator('div.app_logo')).toHaveText('Swag Labs123');
+    await expect(page.locator('div.app_logo')).toHaveText('Swag Labs');
 
 });
 
