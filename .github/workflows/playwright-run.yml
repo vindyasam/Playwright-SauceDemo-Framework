@@ -6,13 +6,17 @@ on:
     branches: [ master ]
   pull_request:
 
+concurrency:
+  group: ci-playwright
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
 jobs:
   test:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 20  
     steps:
       # 1️⃣ Checkout repo
       - name: Checkout repo
@@ -78,7 +82,7 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     if: always()
-
+    timeout-minutes: 15
     steps:
       # 1️⃣ Checkout repo
       - name: Checkout repo
