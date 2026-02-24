@@ -26,7 +26,7 @@ export default defineConfig({
   trace: 'retain-on-failure',
   screenshot: 'only-on-failure',
   video: 'retain-on-failure',
-  headless: false,
+  headless: true,
   launchOptions: {
     slowMo: 500,     // 500ms delay for every action
   },
