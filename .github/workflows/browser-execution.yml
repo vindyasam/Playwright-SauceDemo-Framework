@@ -8,7 +8,7 @@
 # Reports published to GitHub Pages
 # ============================================
 # refresh trigger
-name: Playwright Manual Run
+name: Browser Execution Pipeline
 
 on:
   workflow_dispatch:
