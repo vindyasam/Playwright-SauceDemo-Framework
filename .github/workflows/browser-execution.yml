@@ -12,7 +12,7 @@ name: Browser Execution Pipeline
 
 on:
   workflow_dispatch:
-
+    inputs:
       environment:
         description: 'Select Environment'
         required: true
@@ -27,7 +27,7 @@ on:
       browser:
         description: 'Select Browser'
         required: true
-        default: 'Google Chrome'
+        default: 'Chromium'
         type: choice
         options:
           - Google Chrome
