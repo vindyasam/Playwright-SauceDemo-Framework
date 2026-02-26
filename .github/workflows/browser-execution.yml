@@ -12,7 +12,7 @@ name: Browser Execution Pipeline
 
 on:
   workflow_dispatch:
-    inputs:
+
       environment:
         description: 'Select Environment'
         required: true
