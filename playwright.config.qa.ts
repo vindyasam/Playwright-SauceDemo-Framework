@@ -11,23 +11,10 @@ export default defineConfig({
   //retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
-   reporter: [
-    ['html'],
-    ['list'],
-    ['allure-playwright'],
-    ['playwright-html-reporter', { 
-      testFolder: 'tests',
-      title: 'OPEN CART HTML Report',
-      project: 'Open Cart',
-      release: '9.87.6',
-      testEnvironment: 'QA',
-      embedAssets: true,
-      embedAttachments: true,
-      outputFolder: 'playwright-html-report',
-      minifyAssets: true,
-      startServer: false,  // Set to false for CI
-    }]
-  ],
+  reporter: [
+  ['list'],
+  ['allure-playwright']
+],
   
   use: {
     trace: 'on-first-retry',
