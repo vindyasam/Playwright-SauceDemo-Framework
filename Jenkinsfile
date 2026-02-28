@@ -48,10 +48,11 @@ pipeline {
             post {
                 always {
                     allure([
+                        commandline: 'allure',
                         includeProperties: true,
                         reportBuildPolicy: 'ALWAYS',
                         results: [[path: 'allure-results']]
-                    ])
+                ])
                 }
             }
         }
