@@ -15,7 +15,8 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                bat 'npm install'
+                bat 'npm ci'
+                bat 'npm list'
                 bat 'npx playwright install chromium'
             }
         }
