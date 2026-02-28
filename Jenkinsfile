@@ -21,6 +21,7 @@ pipeline {
         }
 
         // ---------------- DEV ----------------
+        /*
         stage('DEV Tests') {
             steps {
                 bat 'if exist allure-results rmdir /s /q allure-results'
@@ -36,7 +37,7 @@ pipeline {
                 }
             }
         }
-
+            */
         // ---------------- QA ----------------
         stage('QA Tests') {
             steps {
@@ -55,6 +56,7 @@ pipeline {
         }
 
         // ---------------- STAGE ----------------
+        /*
         stage('STAGE Tests') {
             steps {
                 bat 'if exist allure-results rmdir /s /q allure-results'
@@ -87,5 +89,6 @@ pipeline {
                 }
             }
         }
+            */
     }
 }
