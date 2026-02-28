@@ -1,0 +1,5 @@
+Filled: standard_user
+Filled: secret_sauce1231
+Clicked element
+Home Page Title: Swag Labs
+invalid login warning message: Epic sadface: Username and password do not match any user in this service

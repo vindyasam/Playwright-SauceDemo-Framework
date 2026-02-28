@@ -1,0 +1,5 @@
+Filled: standard_user
+Filled: 
+Clicked element
+Home Page Title: Swag Labs
+invalid login warning message: Epic sadface: Password is required
