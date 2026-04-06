@@ -1,0 +1,5 @@
+Filled: 
+Filled: 
+Clicked element
+Home Page Title: Swag Labs
+invalid login warning message: Epic sadface: Username is required

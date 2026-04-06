@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2677","shows error when both username and password are empty","Google Chrome","Mon Apr 06 09:13:17 UTC 2026","passed","Mon Apr 06 09:13:19 UTC 2026","","loginpage.spec.ts","",""
+"","2754","shows error when username is empty","Google Chrome","Mon Apr 06 09:13:14 UTC 2026","passed","Mon Apr 06 09:13:17 UTC 2026","","loginpage.spec.ts","",""
+"","3173","verify valid login","Google Chrome","Mon Apr 06 09:13:11 UTC 2026","passed","Mon Apr 06 09:13:14 UTC 2026","","loginpage.spec.ts","",""
+"","2657","shows locked-out error for locked_out_user","Google Chrome","Mon Apr 06 09:13:17 UTC 2026","passed","Mon Apr 06 09:13:20 UTC 2026","","loginpage.spec.ts","",""
+"","2756","shows error when password is empty","Google Chrome","Mon Apr 06 09:13:14 UTC 2026","passed","Mon Apr 06 09:13:17 UTC 2026","","loginpage.spec.ts","",""
+"","2990","verify Invalid login","Google Chrome","Mon Apr 06 09:13:11 UTC 2026","passed","Mon Apr 06 09:13:14 UTC 2026","","loginpage.spec.ts","",""
